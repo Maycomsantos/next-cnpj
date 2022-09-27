@@ -12,7 +12,7 @@ export default function Home() {
   const [cnaes, setCnaes] = useState([]);
 
   const onSubmit = (e) => {
-    console.log(e);
+    // console.log(e);
   };
 
   const checkCNPJ = (e) => {
@@ -23,7 +23,7 @@ export default function Home() {
     fetch(`https://encontrarcnpj.com.br/api/cnpj?cnpj=${cnpj}`)
       .then((res) => res.json())
       .then((res) => {
-        console.log(res);
+        // console.log(res);
         setValue("name", res.nome);
         setValue("address", res.logradouro);
         setValue("addressNumber", res.numero);
