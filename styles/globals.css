@@ -6,7 +6,7 @@
 form {
   display: block;
   flex-direction: column;
-  margin-left:500px
+  margin-left: 500px
 }
 
 input {
@@ -20,4 +20,109 @@ label {
   height: 50%;
   position: inherit;
   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  form {
+    display: block;
+    flex-direction: column;
+    margin-left: 500px
+  }
+
+  input {
+    box-sizing: border-box;
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    position: inherit;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 600px) {
+  form {
+    display: block;
+    flex-direction: column;
+    margin-left: 500px
+  }
+
+  input {
+    box-sizing: border-box;
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    position: inherit;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 912px) and (max-width: 1368px) {
+  form {
+    display: block;
+    flex-direction: column;
+    margin-left: 200px
+  }
+
+  input {
+    box-sizing: border-box;
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    margin-left: 200px;
+    position: inherit;
+    font-weight: bold;
+  }
+}
+
+@media(min-width: 410px) {
+  /* form {
+    display: block;
+    flex-direction: column;
+    margin-left: 100px
+  } */
+
+  input {
+    box-sizing: border-box;
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 50%;
+    position: inherit;
+    font-weight: bold;
+  }
+}
+@media (min-width: 460px) and (max-width: 1368px) {
+  form {
+    display: block;
+    flex-direction: column;
+    margin-left: 100px
+  }
+
+  input {
+    box-sizing: border-box;
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 50%;
+    position: inherit;
+    font-weight: bold;
+  }
 }
