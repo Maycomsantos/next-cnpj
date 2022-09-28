@@ -5,6 +5,8 @@ import { useForm } from "react-hook-form";
 import { useState } from "react";
 import styles from "../styles/Home.module.css";
 import { Button, TextField, Card } from '@mui/material/';
+import Script from 'next/script';
+
 
 export default function Home() {
   const { register, handleSubmit, setValue, setFocus } = useForm();
@@ -166,4 +168,11 @@ export default function Home() {
     </Card>
   );
 }
+
+<Script 
+async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6613975280720158"
+crossOrigin="anonymous"
+// data-checked-head="true"
+/>
+
 
